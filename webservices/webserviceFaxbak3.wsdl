@@ -1,0 +1,60 @@
+<?xml version ='1.0' encoding ='UTF-8' ?> 
+<definitions 
+	xmlns="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:tns="http://192.168.0.20/sipcom/webservices/webserviceFax.php" 
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+	name="webserviceFax" 
+	targetNamespace="http://192.168.0.20/sipcom/webservices/webserviceFax.php">
+	<types>
+		<xsd:schema targetNamespace="http://192.168.0.20/sipcom/webservices/webserviceFax.php"/>
+	</types>
+	<portType name="webserviceFaxPort">
+		<operation name="login">
+		<documentation>login</documentation>
+		<input message="tns:loginIn"/>
+		</operation>
+		<operation name="sendFax">
+		<documentation>sendFax</documentation>
+		<input message="tns:sendFaxIn"/>
+		<output message='tns:sendFaxOut'/>
+		</operation>
+	</portType>
+	<binding name="webserviceFaxBinding" type="tns:webserviceFaxPort">
+		<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="login">
+			<soap:operation soapAction="http://192.168.0.20/sipcom/webservices/webserviceFax.php#login"/>
+			<input>
+				<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://192.168.0.20/sipcom/webservices/webserviceFax.php"/>
+			</input>
+		</operation>
+		<operation name="sendFax">
+		<soap:operation soapAction="http://192.168.0.20/sipcom/webservices/webserviceFax.php#sendFax"/>
+			<input>
+				<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://192.168.0.20/sipcom/webservices/webserviceFax.php"/>
+			</input>
+			<output>
+					<soap:body use='encoded' namespace='urn:192.168.0.20/webserviceFax'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+				</output>
+		</operation>
+	</binding>
+	<service name="webserviceFaxService">
+		<port name="webserviceFaxPort" binding="tns:webserviceFaxBinding">
+			<soap:address location="http://192.168.0.20/sipcom/webservices/webserviceFax.php"/>
+		</port>
+	</service>
+	<message name="loginIn">
+		<part name="username" type="xsd:anyType"/>
+		<part name="password" type="xsd:anyType"/>
+	</message>
+	<message name="sendFaxIn">
+		<part name="number" type="xsd:anyType"/>
+		<part name="file" type="xsd:anyType"/>
+	</message>
+	<message name='sendFaxOut'>
+		<xsd:part name='sendFaxResult' type="xsd:string"/>
+	</message>
+</definitions>

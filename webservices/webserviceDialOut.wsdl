@@ -1,0 +1,43 @@
+<?xml version ='1.0' encoding ='UTF-8' ?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" 
+	xmlns:tns="http://192.168.0.20/sipcom/webservices/webserviceDialOut.php" 
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+	xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" 
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" 
+	name="webserviceDialOut"
+	targetNamespace="http://192.168.0.20/sipcom/webservices/webserviceDialOut.php">
+	<types>
+		<xsd:schema targetNamespace="http://192.168.0.20/sipcom/webservices/webserviceDialOut.php"/>
+	</types>
+	<portType name="webserviceDialOutPort">
+		<operation name="dialOut">
+			<documentation>dialOut</documentation>
+			<input message="tns:dialOutIn"/>
+			<output message='tns:dialOutOut'/> 
+		</operation>
+	</portType>
+	<binding name="webserviceDialOutBinding" type="tns:webserviceDialOutPort">
+	<soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+	<operation name="dialOut">
+		<soap:operation soapAction="http://192.168.0.20/sipcom/webservices/webserviceDialOut.php#dialOut"/>
+		<input>
+			<soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="http://192.168.0.20/sipcom/webservices/webserviceDialOut.php"/>
+		</input>
+		<output> 
+        <soap:body use='literal' namespace='urn:xmethods-delayed-quotes'  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+      	</output> 
+	</operation>
+	</binding>
+	<service name="webserviceDialOutService">
+		<port name="webserviceDialOutPort" binding="tns:webserviceDialOutBinding">
+			<soap:address location="http://192.168.0.20/sipcom/webservices/webserviceDialOut.php"/>
+		</port>
+	</service>
+	<message name="dialOutIn">
+		<part name="number" type="xsd:anyType"/>
+	</message>
+	<message name='dialOutOut'> 
+    	<part name='infoRet' type='xsd:string'/> 
+  	</message> 
+</definitions>

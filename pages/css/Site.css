@@ -1,0 +1,32 @@
+li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+#iframeContent {
+    overflow: scroll;
+    width: 100%;
+    height: 1000px;
+    border: 0;
+}
+
+#divleft{
+	float:left;
+}
+
+#divmiddle{
+	float:left;
+}
+
+#divright{
+	float:left;
+}

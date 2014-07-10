@@ -1,0 +1,59 @@
+1.Unable to create channel of type 'SIP' (cause 58 - Bearer capability not available)
+	solution: no solution, destanation is not available;  try to restart to let asterisk configure it, reload won't work;
+
+2.asterisk Servname not supported for ai_socktype
+
+3.Manager User ACL: Rejecting '127.0.0.1' due to a failure to pass ACL '(BASELINE)'
+	solution:add permit=127.0.0.1/255.255.255.0 to manager.conf and then reload
+
+4.log4php fopen(./log.log): failed to open stream: Permission denied
+	solution:in eclispe right click on log fiels, choose propetes, give all write permission;
+
+5. php pages/test.php cant find Logger
+	solution: require_once __DIR__.DIRECTORY_SEPARATOR.'../log4php/Logger.php';
+
+6.Fatal error: Call to undefined function pcntl_wait()
+	solution: run in cli: php test.php
+	Also note the following from http://www.php.net/manual/en/ref.pcntl.php
+	"Process Control should not be enabled within a webserver environment
+	and unexpected results may happen if any Process Control functions are
+	used within a webserver environment."
+	
+7. can't send a agi action from ami, Permission denied
+	solution: agi permission in manager.conf	read = system,call,log,verbose,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,agi
+												write = system,call,log,verbose,agent,user,config,command,dtmf,reporting,cdr,dialplan,originate,agi
+
+8. php no object cast
+
+9. The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 8B48AD6246925553
+	solution:	gpg --keyserver pgpkeys.mit.edu --recv-key  8B48AD6246925553
+				gpg -a --export 8B48AD6246925553 | apt-key add -
+
+10. phpize   -bash: phpize: command not found
+	solution: 	apt-get update
+				apt-get install php5-dev
+
+11. PHP Notice:  Undefined offset: -2 in /var/lib/asterisk/agi-bin/Sipmobile/test/prephpsh.php on line 29
+
+12. Unable to locate package vnc4viewer
+	gedit /etc/apt/sources.list
+		deb http://ftp.uk.debian.org/debian/ squeeze main
+		deb-src http://ftp.uk.debian.org/debian/ squeeze main
+
+		deb http://security.debian.org/ squeeze/updates main
+		deb-src http://security.debian.org/ squeeze/updates main
+
+		# squeeze-updates, previously known as 'volatile'
+		deb http://ftp.uk.debian.org/debian/ squeeze-updates main
+		deb-src http://ftp.uk.debian.org/debian/ squeeze-updates main
+	comment out the second "deb cdrom:" line
+	apt-get update
+
+13. xvnc4viewer 192.168.0.20
+	unable to connect to host: Connection refused (111)
+	solution: 	uncomment the following lines from your ~/.vnc/xstartup file if you haven't already:
+				unset SESSION_MANAGER
+				exec /etc/X11/xinit/xinitrc	
+14. xvnc4viewer can not see destkstop
+	solution: 	cat /root/.vnc/sipcomdebian\:1.log, find execute /etc/X11/xinit/xinitrc permission denied
+				chmod 755 /etc/X11/xinit/xinitrc

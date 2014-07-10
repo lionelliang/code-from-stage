@@ -1,0 +1,46 @@
+<?xml version ='1.0' encoding ='UTF-8' ?> 
+<definitions name='sendfaxservice' 
+  targetNamespace='http://192.168.0.20/sipcom/webservices/webserviceFax' 
+  xmlns:tns='http://192.168.0.20/sipcom/webservices/webserviceFax' 
+  xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/' 
+  xmlns:xsd='http://www.w3.org/2001/XMLSchema' 
+  xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/' 
+  xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/' 
+  xmlns='http://schemas.xmlsoap.org/wsdl/'> 
+
+  <message name='sendFaxRequest'> 
+    <part name='number' type='xsd:string'/> 
+    <part name='file' type='xsd:string'/>
+    <part name='idfaxrecord' type='xsd:string'/>
+  </message> 
+
+  <message name='sendFaxResponse'> 
+    <part name='infoRet' type='xsd:string'/> 
+  </message> 
+
+  <portType name='sendFaxPortType'> 
+    <operation name='sendFax'> 
+      <input message='tns:sendFaxRequest'/> 
+      <output message='tns:sendFaxResponse'/> 
+    </operation> 
+  </portType> 
+
+  <binding name='sendFaxBinding' type='tns:sendFaxPortType'> 
+    <soap:binding style='rpc' transport='http://schemas.xmlsoap.org/soap/http'/> 
+    <operation name='sendFax'>
+      <soap:operation soapAction='http://192.168.0.20/sipcom/webservices/webserviceFax.php#sendFax'/> 
+      <input>  
+        <soap:body use='literal' namespace='urn:xmethods-delayed-quotes' encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+      </input> 
+      <output> 
+        <soap:body use='literal' namespace='urn:xmethods-delayed-quotes'  encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/> 
+      </output> 
+    </operation> 
+  </binding> 
+  <service name='webserviceFax'> 
+    <documentation>Send fax web service</documentation>
+    <port name='sendFaxPort' binding='tns:sendFaxBinding'> 
+      <soap:address location='http://192.168.0.20/sipcom/webservices/webserviceFax.php'/> 
+    </port> 
+  </service> 
+</definitions>

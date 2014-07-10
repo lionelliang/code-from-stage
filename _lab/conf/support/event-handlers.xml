@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+  <import resource="event-handlers/dial.xml"/>
+  <import resource="event-handlers/dtmf.xml"/>
+  <import resource="event-handlers/event.xml"/>
+  <import resource="event-handlers/varset.xml"/>
+  <import resource="event-handlers/newchannel.xml"/>
+  <import resource="event-handlers/newstate.xml"/>
+  <import resource="event-handlers/newexten.xml"/>
+</beans>

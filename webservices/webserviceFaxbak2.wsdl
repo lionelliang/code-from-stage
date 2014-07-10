@@ -1,0 +1,86 @@
+<?xml version ='1.0' encoding ='UTF-8' ?>
+<definitions name='webserviceFax' targetNamespace='urn:192.168.0.20/webserviceFax'
+	xmlns:tns='urn:192.168.0.20/webserviceFax'
+	xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/'
+	xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+	xmlns:soapenc='http://schemas.xmlsoap.org/soap/encoding/'
+	xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+	xmlns='http://schemas.xmlsoap.org/wsdl/' >
+
+	<xsd:complexType name="Authentication">
+		<xsd:sequence>
+			<xsd:element minOccurs="0" maxOccurs="1" name="username" type="xsd:string"/>
+			<xsd:element minOccurs="0" maxOccurs="1" name="password" type="xsd:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<!-- define method arguments using a complexType -->
+<!--	<xsd:complexType name="HeaderLoginArgs">
+		<xsd:all>
+	        <xsd:element name='username' type='xsd:string'/>
+	        <xsd:element name='password' type='xsd:string'/>
+		</xsd:all>
+	</xsd:complexType>
+-->
+	<!-- define method message with single part -->
+<!--	<message name='loginRequest'>
+		<xsd:part name='Authentication' type='tns:Authentication'/>
+	</message>
+-->
+	<message name='sendFaxRequest'>
+		<xsd:part name="number" type="xsd:string"/>
+		<xsd:part name="file" type="xsd:string"/>
+	</message>
+
+	<message name='sendFaxResponse'>
+		<xsd:part name='sendFaxResult' type="xsd:string"/>
+	</message>
+
+	<portType name='sendFaxPortType'>
+		<!--
+		<operation name='login'>
+			<input message='tns:loginRequest'/>
+			<output message='tns:loginResponse'/>
+		</operation>
+	-->
+		<operation name='sendFax'>
+			<input message='tns:sendFaxRequest'/>
+			<output message='tns:sendFaxResponse'/>
+		</operation>	
+	</portType>
+
+	<binding name='sendFaxBinding' type='tns:sendFaxPortType'>
+		<soap:binding style='rpc' 
+			transport='http://schemas.xmlsoap.org/soap/http'/>
+<!--			<operation name='login'>
+				<soap:operation soapAction='urn:webserviceFax#getQuote'/>
+				<input>
+					<soap:body use='encoded' namespace='urn:webserviceFax'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+				</input>
+				<output>
+					<soap:body use='encoded' namespace='urn:webserviceFax'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+				</output>
+			</operation> -->
+			<operation name='sendFax'>
+				<soap:operation soapAction='urn:192.168.0.20/sendFax'/>
+				<input>
+<!--				<soap:header message='tns:loginRequest' part='Authentication'/> -->
+					<soap:body use='encoded' namespace='urn:192.168.0.20/webserviceFax'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+				</input>
+				<output>
+					<soap:body use='encoded' namespace='urn:192.168.0.20/webserviceFax'
+					encodingStyle='http://schemas.xmlsoap.org/soap/encoding/'/>
+				</output>
+			</operation>		
+	</binding>
+
+	<service name='sendFaxService'>
+		<documentation>Send fax web service</documentation>
+		<port name='sendFaxPort' binding='sendFaxBinding'>
+			<soap:address location='http://192.168.0.20/sipcom/webservices/webserviceFax.php'/>
+		</port>
+	</service>
+</definitions>

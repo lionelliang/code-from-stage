@@ -1,0 +1,1153 @@
+2014-03-14T13:16:42-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+)
+
+2014-03-14T13:16:42-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-14T13:16:42-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000001
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395139089.1
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1246438544
+)
+
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000001" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T07:38:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395139089.1" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1246438544" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T07:38:10-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T07:38:13-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T07:38:13-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T07:38:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T07:38:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T07:38:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T07:38:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T07:38:40-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get option." 1
+2014-03-18T07:38:40-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T07:38:40-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for stream file." 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS "SIP/0123456781-00000001"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET VARIABLE "EXTEN"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Variable: 3336" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${EXTEN}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "FullVariable: 3336" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(src)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: 0123456781" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CDR(accountcode)" "foo"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(accountcode)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: foo" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: 0123456781 dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(name)" "pepe"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(all)" "pepe<0123456781>"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: pepe dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET CALLERID "\"foo\"<123123>"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 123123 name: foo dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "Dial" "SIP/01,30,r"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNAME}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNUMBER}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${ANSWEREDTIME}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALSTATUS}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DYNAMIC_FEATURES}"
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "[ Dial:  PeerName:  PeerNumber:  DialedTime: 0 AnsweredTime:  DialStatus: CHANUNAVAIL Features:  ]" 1
+2014-03-18T07:38:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY PHONETIC "marcelog" "123#"
+2014-03-18T07:38:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say phonetic." 1
+2014-03-18T07:38:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY ALPHA "marcelog" "123#"
+2014-03-18T07:38:53-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say alpha." 1
+2014-03-18T07:38:53-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY TIME "1395139133" "123#"
+2014-03-18T07:38:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say time." 1
+2014-03-18T07:38:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DATETIME "1395139135" "123#" "mdYHMS"
+2014-03-18T07:39:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000003
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395139307.3
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247298704
+)
+
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T07:41:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000003" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395139307.3" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1247298704" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T07:41:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T07:41:51-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T07:41:51-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T07:41:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T07:41:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T07:42:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T07:42:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T07:42:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get option." 1
+2014-03-18T07:42:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T07:42:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000006
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395139529.6
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247790224
+)
+
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000006" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T07:45:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395139529.6" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1247790224" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T07:45:30-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T07:45:33-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T07:45:33-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T07:45:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T07:45:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T07:45:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T07:45:48-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T07:45:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get option." 1
+2014-03-18T07:45:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for stream file." 1
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS "SIP/0123456781-00000006"
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET VARIABLE "EXTEN"
+2014-03-18T07:46:00-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Variable: 3336" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${EXTEN}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "FullVariable: 3336" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(src)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: 0123456781" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CDR(accountcode)" "foo"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(accountcode)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: foo" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: 0123456781 dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(name)" "pepe"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(all)" "pepe<0123456781>"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: pepe dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET CALLERID "\"foo\"<123123>"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 123123 name: foo dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "Dial" "SIP/01,30,r"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNAME}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNUMBER}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${ANSWEREDTIME}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALSTATUS}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DYNAMIC_FEATURES}"
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "[ Dial:  PeerName:  PeerNumber:  DialedTime: 0 AnsweredTime:  DialStatus: CHANUNAVAIL Features:  ]" 1
+2014-03-18T07:46:01-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY PHONETIC "marcelog" "123#"
+2014-03-18T07:46:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say phonetic." 1
+2014-03-18T07:46:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY ALPHA "marcelog" "123#"
+2014-03-18T07:46:12-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say alpha." 1
+2014-03-18T07:46:12-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY TIME "1395139572" "123#"
+2014-03-18T07:46:15-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say time." 1
+2014-03-18T07:46:15-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DATETIME "1395139575" "123#" "mdYHMS"
+2014-03-18T07:46:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000007
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395139657.7
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247790224
+)
+
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T07:47:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000007" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395139657.7" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1247790224" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T07:47:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T07:47:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T07:47:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T07:47:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T07:47:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T07:47:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T07:47:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T07:48:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get option." 1
+2014-03-18T07:48:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for stream file." 1
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS "SIP/0123456781-00000007"
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET VARIABLE "EXTEN"
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Variable: 3336" 1
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${EXTEN}"
+2014-03-18T07:48:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "FullVariable: 3336" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(src)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: 0123456781" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CDR(accountcode)" "foo"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(accountcode)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: foo" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: 0123456781 dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(name)" "pepe"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(all)" "pepe<0123456781>"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: pepe dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET CALLERID "\"foo\"<123123>"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 123123 name: foo dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "Dial" "SIP/01,30,r"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNAME}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNUMBER}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${ANSWEREDTIME}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALSTATUS}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DYNAMIC_FEATURES}"
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "[ Dial:  PeerName:  PeerNumber:  DialedTime: 0 AnsweredTime:  DialStatus: CHANUNAVAIL Features:  ]" 1
+2014-03-18T07:48:09-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY PHONETIC "marcelog" "123#"
+2014-03-18T07:48:15-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say phonetic." 1
+2014-03-18T07:48:15-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY ALPHA "marcelog" "123#"
+2014-03-18T07:48:20-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say alpha." 1
+2014-03-18T07:48:20-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY TIME "1395139700" "123#"
+2014-03-18T07:48:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say time." 1
+2014-03-18T07:48:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DATETIME "1395139703" "123#" "mdYHMS"
+2014-03-18T07:48:31-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000008
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395139975.8
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1246684304
+)
+
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000008" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395139975.8" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T07:52:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1246684304" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T07:52:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T07:52:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T07:52:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T07:53:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T07:53:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T07:53:14-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T07:53:14-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T07:53:25-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get option." 1
+2014-03-18T07:53:25-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for stream file." 1
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: CHANNEL STATUS "SIP/0123456781-00000008"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel status: Line is up" 1
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET VARIABLE "EXTEN"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Variable: 3336" 1
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${EXTEN}"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "FullVariable: 3336" 1
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(src)}"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: 0123456781" 1
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CDR(accountcode)" "foo"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CDR(accountcode)}"
+2014-03-18T07:53:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CDRVariable: foo" 1
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: 0123456781 dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(name)" "pepe"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET VARIABLE "CALLERID(all)" "pepe<0123456781>"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 0123456781 name: pepe dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET CALLERID "\"foo\"<123123>"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(num)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(name)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(dnid)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(rdnis)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${CALLERID(ani)}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerID: [ CallerID:  number: 123123 name: foo dnid: 3336 rdnis:  ani: 0123456781]" 1
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "Dial" "SIP/01,30,r"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNAME}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALEDPEERNUMBER}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${ANSWEREDTIME}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DIALSTATUS}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET FULL VARIABLE "${DYNAMIC_FEATURES}"
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "[ Dial:  PeerName:  PeerNumber:  DialedTime: 0 AnsweredTime:  DialStatus: CHANUNAVAIL Features:  ]" 1
+2014-03-18T07:53:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY PHONETIC "marcelog" "123#"
+2014-03-18T07:53:33-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say phonetic." 1
+2014-03-18T07:53:33-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY ALPHA "marcelog" "123#"
+2014-03-18T07:53:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say alpha." 1
+2014-03-18T07:53:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY TIME "1395140018" "123#"
+2014-03-18T07:53:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say time." 1
+2014-03-18T07:53:41-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DATETIME "1395140021" "123#" "mdYHMS"
+2014-03-18T07:53:49-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000009
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395140763.9
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1248035984
+)
+
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000009
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395140763.9
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1248035984
+)
+
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000009
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395140763.9
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1248035984
+)
+
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000009
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395140763.9
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1248035984
+)
+
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000009
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395140763.9
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1248035984
+)
+
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T08:06:03-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000009" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000009" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000009" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000009" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-00000009" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395140763.9" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395140763.9" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395140763.9" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395140763.9" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395140763.9" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1248035984" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1248035984" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1248035984" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1248035984" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1248035984" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:06:04-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T08:06:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:06:08-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T08:06:11-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T08:06:14-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:06:14-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T08:06:17-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T08:06:17-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T08:06:17-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T08:06:20-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T08:06:20-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T08:06:25-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T08:06:25-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T08:06:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T08:06:33-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T08:06:33-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T08:06:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T08:06:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T08:06:38-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T08:06:42-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T08:06:42-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T08:06:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Read: 358" 1
+2014-03-18T08:06:56-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T08:07:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T08:07:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T08:07:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T08:07:18-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T08:07:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET OPTION "/var/lib/asterisk/sounds/welcome" "0123456789*#" "10000"
+2014-03-18T08:07:29-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for get data with: " 1
+2014-03-18T08:07:37-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-0000000b
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395140926.11
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247790224
+)
+
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run" 1
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "NOTICE,hello notice"
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "WARNING,hello warn"
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DEBUG,hello debug"
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "ERROR,hello error"
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: EXEC "LOG" "DTMF,hello dtmf"
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config dir: " 1
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Config file: " 1
+2014-03-18T08:08:46-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Module dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Spool dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Monitor dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Var dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Data dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Log dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Agi dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Key dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Run dir: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Request: async" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Channel: SIP/0123456781-0000000b" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Language: fr" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Type: SIP" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "UniqueId: 1395140926.11" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Version: 11.8.0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId: 0123456781" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId name: 0123456781" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallerId pres: 0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingAni2: 0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTon: 0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "CallingTNS: 0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "DNID: 3336" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "RDNIS: unknown" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Context: sipint" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Extension: 3336" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Priority: 2" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Enhanced: 0.0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "AccountCode: " 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ThreadId: -1247790224" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Arguments: 0" 1
+2014-03-18T08:08:47-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:08:51-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say digits." 1
+2014-03-18T08:08:51-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY NUMBER "12345" "12#"
+2014-03-18T08:08:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Timeouted for say number." 1
+2014-03-18T08:08:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: GET DATA "/var/lib/asterisk/sounds/welcome" "10000" "4"
+2014-03-18T08:08:57-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:23:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-0000000c
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395141835.12
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247790224
+)
+
+2014-03-18T08:23:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:23:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:23:55-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:23:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T08:23:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:23:59-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ErrorHandler: 8 fwrite(): send of 162 bytes failed with errno=32 Broken pipe /var/www/sipcom/PAMI/Client/Impl/ClientImpl.php 409" 1
+2014-03-18T08:24:50-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-0000000d
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395141890.13
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1248035984
+)
+
+2014-03-18T08:24:50-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:24:50-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:24:50-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:24:54-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T08:24:54-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET AUTOHANGUP 10
+2014-03-18T08:24:54-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:24:54-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ErrorHandler: 8 fwrite(): send of 162 bytes failed with errno=32 Broken pipe /var/www/sipcom/PAMI/Client/Impl/ClientImpl.php 409" 1
+2014-03-18T08:27:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-0000000e
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395142043.14
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1246438544
+)
+
+2014-03-18T08:27:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:27:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:27:23-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:27:26-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T08:27:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET AUTOHANGUP 10
+2014-03-18T08:27:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:27:27-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ErrorHandler: 8 fwrite(): send of 162 bytes failed with errno=32 Broken pipe /var/www/sipcom/PAMI/Client/Impl/ClientImpl.php 409" 1
+2014-03-18T08:29:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-00000004
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395139347.4
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247544464
+)
+
+2014-03-18T08:29:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:29:07-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:42:28-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Array
+(
+    [request] => async
+    [channel] => SIP/0123456781-0000000f
+    [language] => fr
+    [type] => SIP
+    [uniqueid] => 1395142948.15
+    [version] => 11.8.0
+    [callerid] => 0123456781
+    [calleridname] => 0123456781
+    [callingpres] => 0
+    [callingani2] => 0
+    [callington] => 0
+    [callingtns] => 0
+    [dnid] => 3336
+    [rdnis] => unknown
+    [context] => sipint
+    [extension] => 3336
+    [priority] => 2
+    [enhanced] => 0.0
+    [accountcode] => 
+    [threadid] => -1247298704
+)
+
+2014-03-18T08:42:28-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Init" 1
+2014-03-18T08:42:28-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: ANSWER
+2014-03-18T08:42:28-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SAY DIGITS "12345" "12#"
+2014-03-18T08:42:31-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: STREAM FILE "/var/lib/asterisk/sounds/welcome" "#"
+2014-03-18T08:42:32-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: SET AUTOHANGUP 10
+2014-03-18T08:42:32-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T08:42:32-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "ErrorHandler: 8 fwrite(): send of 162 bytes failed with errno=32 Broken pipe /var/www/sipcom/PAMI/Client/Impl/ClientImpl.php 409" 1
+2014-03-18T14:07:43-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "SignalHandler got signal: 15" 1
+2014-03-18T14:07:43-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T14:07:43-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "SignalHandler got signal: 15" 1
+2014-03-18T14:07:43-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T14:07:44-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
+2014-03-18T14:07:44-03:00 [DEBUG] PAMI\AsyncAgi\AsyncClientImpl: Sending: VERBOSE "Shutdown" 1
