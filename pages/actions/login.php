@@ -4,26 +4,25 @@ $username = $_POST ['username'];
 $password = $_POST ['password'];
 
 if (empty ( $username ) || empty ( $password )) {
-	echo "Information incomplete";
+	echo "Information Incomplete";
 	exit ();
 }
 
+// Inialize session
+session_start();
+
 $result = Users::login ( $username, $password );
-$num = mysql_numrows ( $result );
+$num = mssql_num_rows ( $result );
 
 if ($num == 1) {
-	$usertype = mysql_result( $result, 0, "usertype" );
+	$codeclient = mssql_result($result, 0, 'codeclient');
+	session_register ( "codeclient" );
+	$_SESSION ["codeclient"] = $codeclient;
 	session_register ( "username" );
 	$_SESSION ["username"] = $username;
-	echo $usertype;
-	if ($usertype == 1) {
-		header ( "Location: ../index.php?usertype");
-		exit ();
-	} else {
-		header ( "Location: ../SendFax.php?usertype" );
-		exit ();
-	}
+	header ( "Location: ../SendFax.php");
+	exit ();
 } else {
-	echo "Information incorrecte";
+	echo "Information Incorrecte";
 }
 ?>  

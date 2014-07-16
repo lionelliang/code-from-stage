@@ -25,6 +25,22 @@ class DaoFax extends Dao{
 		$db = Variables::$strSipcomcall;
 		return self::execute_query($query, $db);
 	}
+	/**
+	 * log the sent fax in windows SQL server
+	 * @param string $codeclient
+	 * @param string $numerodefax
+	 * @param string $date
+	 * @param string $recude
+	 * @param string $fichier
+	 * @return mixed
+	 */
+	public static function msfax_Insert($codeclient, $number ,$date ,$file){
+		$query = "INSERT INTO fax (fk_codeclient, destinationnumber, filename, dateupload, server)
+						VALUES ('".$codeclient."', '".$number."', '".$file."' , '".$date."','".Variables::$strThisServerIP."' );
+				  SELECT SCOPE_IDENTITY() AS idfaxrecord;";
+		$db = Variables::$strSipcomweb;
+		return self::executeMSSQLQuery($query, $db);
+	}
 
 	/**
 	 * delete fax sent log by id

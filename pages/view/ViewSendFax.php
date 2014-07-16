@@ -2,6 +2,16 @@
 include_once __DIR__.DIRECTORY_SEPARATOR.'../../bll/Fax.php';
 include_once __DIR__.DIRECTORY_SEPARATOR.'../../dal/Variables.php';
 
+// Inialize session
+session_start();
+
+// Check, if username session is NOT set then this page will jump to login page
+if (!isset($_SESSION['username'])) {
+	header('Location: ./../../index.php');
+}
+$username = $_SESSION['username'];
+$codeclient = $_SESSION['codeclient'];
+
 if(count($_GET) > 0) {
 
 	//$channel="SIP/0123456781";
@@ -29,7 +39,14 @@ if(count($_GET) > 0) {
 			}
 		if (file_exists($data)){
 
-			if(Fax::sendFaxOutgoing($channel, $data)){
+			$result = Fax::msfax_Insert($codeclient, $number, $file);
+			if($result){
+				$idfaxrecord = mssql_result($result, 0, 'idfaxrecord');
+			}
+			echo $idfaxrecord.$codeclient.$number.$file;
+
+			//if(Fax::sendFaxOutgoing($channel, $data)){
+			if(Fax::sendFaxByExtension($channel, $data, $idfaxrecord)){
 				echo "Réussir à envoyer fax à ".$channel."\n";
 				Fax::faxSent_Insert($numerodefax, $number, $file);
 			}else{

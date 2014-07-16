@@ -15,9 +15,12 @@ class DaoUsers extends Dao{
 	 * @return resource
 	 */
 	public static function login($username, $password){
-		$query = "SELECT * FROM utilisateurs WHERE login='$username' AND pwd= '$password'";
-		$db = Variables::$strSipcomcall;
-		return self::execute_query($query, $db);
+		// do not use "select * ", datetime type exist. if not there would be a problem:
+		//Unicode data in a Unicode-only collation or ntext data cannot be sent to clients using DB-Library
+		
+		$query = "SELECT codeclient, espaceclientIsEnabled, espaceclientLogin, espaceclientPass FROM clients WHERE espaceclientIsEnabled='1' AND espaceclientLogin='$username' AND espaceclientPass= '$password'";
+		$db = Variables::$strSipcom;
+		return self::executeMSSQLQuery($query, $db);
 	}
 	
 	/**

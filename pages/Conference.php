@@ -6,6 +6,7 @@
 </head>
 <body onload="get_data('view/ViewMeetme.php','divAMI')">
 	<h1>Asterisk Conference - Meetme - To be CHECKED , Not cheched Yet</h1>
+	to test call 3345 with conference number 3345 and pwd 123456
 
 	Ajouter un serveur:
 	<br>

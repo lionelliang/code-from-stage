@@ -28,7 +28,7 @@ class Fax{
 
 	/**
 	 *
-	 * Enter description here ...
+	 * send fax with .call file in /outging/, there no log
 	 * @param string $channel Channel name to call
 	 * @param string $data Data to use (requires 'Application')
 	 * @param string $waittime
@@ -129,11 +129,16 @@ class Fax{
 	/**
 	 * Insert fax log
 	 */
-	public static function faxSent_Insert($numerodefax ,$recude ,$fichier){
+	public static function faxSent_Insert($numerodefax ,$recude ,$file){
 		$date = date("Y-m-d H:i:s"); 
-		return DaoFax::faxSent_Insert($numerodefax, $date, $recude, $fichier);
+		return DaoFax::faxSent_Insert($numerodefax, $date, $recude, $file);
 	}
 
+	public static function msfax_Insert($codeclient, $number ,$file){
+		$date = date("Y-m-d H:i:s");
+		return DaoFax::msfax_Insert($codeclient, $number, $date, $file);
+	}
+	
 	/**
 	 * delete fax log by id
 	 */
