@@ -4,6 +4,7 @@
 <meta name="generator" content="HTML Tidy, see www.w3.org" charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="css/Site.css">
 <title>Sipcom Asterisk Management</title>
+
 </head>
 
 <body onload="faxSentSelect();faxReceivedSelect()">

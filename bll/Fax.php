@@ -110,7 +110,10 @@ class Fax{
 	public static function pdf2Tiff($inFile, $outFile){
 		if (file_exists($inFile)){
 			//$gs_command = "tiff2pdf -o ${$outFile} ${$inFile}";
-			$gs_command = "gs -q -dNOPAUSE -dBATCH -sDEVICE=tiffg4 -sPAPERSIZE=a4 -sOutputFile=$outFile $inFile";
+			//$gs_command = "gs -q -dNOPAUSE -dBATCH -sDEVICE=tiffg4 -sPAPERSIZE=a4 -sOutputFile=$outFile $inFile";
+			//$gs_command = "gs -q -dNOPAUSE -dBATCH -sDEVICE=tiffg3 -sPAPERSIZE=letter -sOutputFile=$outFile $inFile";
+			$gs_command = "gs -q -dNOPAUSE -dBATCH -sDEVICE=tiffg4 -sPAPERSIZE=letter -sOutputFile=$outFile $inFile";
+			
 			system($gs_command, $retval);
 			//echo $retval."\n";
 			return $retval;

@@ -7,7 +7,8 @@ session_start();
 
 // Check, if username session is NOT set then this page will jump to login page
 if (!isset($_SESSION['username'])) {
-	header('Location: ./../../index.php');
+	echo "<a href='./../../index.php'>Login, session expeire</a>";
+	return ;
 }
 $username = $_SESSION['username'];
 $codeclient = $_SESSION['codeclient'];
@@ -43,8 +44,9 @@ if(count($_GET) > 0) {
 			if($result){
 				$idfaxrecord = mssql_result($result, 0, 'idfaxrecord');
 			}
-			echo $idfaxrecord.$codeclient.$number.$file;
-
+			
+// 			echo $idfaxrecord.$codeclient.$number.$file;
+// 			return ;
 			//if(Fax::sendFaxOutgoing($channel, $data)){
 			if(Fax::sendFaxByExtension($channel, $data, $idfaxrecord)){
 				echo "Réussir à envoyer fax à ".$channel."\n";
