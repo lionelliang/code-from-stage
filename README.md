@@ -1,6 +1,6 @@
 ### Sipcom Asterisk Management Interface
 
-this is a Aterisk Management system by Zend php, it communicate with aterisk servers using webservice.
+Combination of project Sipcom and Sipmobile is a Aterisk Management system by Zend php, two project communicate with using webservice. Sipcom is used in server side to connect with Aterisk server and provide web interface for client side, note SipMobile
 
 
 ### Captures
