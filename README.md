@@ -1,6 +1,6 @@
 ### Sipcom Asterisk Management Interface
 
-this is a Aterisk Management system by php
+this is a Aterisk Management system by Zend php, it communicate with aterisk servers using webservice.
 
 
 ### Captures
